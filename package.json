@@ -1,0 +1,25 @@
+{
+    "name": "e-commerce",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "rm -rf ./dist/dev/* && parcel ./public/index.html -d ./dist/dev -p 8000",
+        "build": "rm -rf ./dist/build/* && parcel build ./public/index.html -d ./dist/build"
+    },
+    "keywords": [],
+    "author": "Chentse Lee",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.1.0"
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.34",
+        "@types/react-dom": "^16.9.7",
+        "@types/styled-components": "^5.1.0",
+        "parcel-bundler": "^1.12.4",
+        "typescript": "^3.8.3"
+    }
+}
